@@ -1,0 +1,638 @@
+﻿{
+    "pagehelp": {
+        "message": "help", 
+        "description": "help"
+    }, 
+    "titelimage": {
+        "message": "背景圖片", 
+        "description": "Background Image"
+    }, 
+    "shortcutalllights": {
+        "message": "to toggle the lights on/off for all open tabs.", 
+        "description": "to toggle the lights on/off for all open tabs."
+    }, 
+    "lastchecked": {
+        "message": "Latest version checked on", 
+        "description": "Latest version checked on"
+    }, 
+    "visualeffects": {
+        "message": "視覺效果", 
+        "description": "Visual Effects"
+    }, 
+    "titelshortcutlight": {
+        "message": "快捷鍵", 
+        "description": "Shortcut Key"
+    }, 
+    "titledonatebutton": {
+        "message": "Donate", 
+        "description": "Donate"
+    }, 
+    "titellikebar": {
+        "message": "Like Bar", 
+        "description": "Like Bar"
+    }, 
+    "desmousespotlightt": {
+        "message": "Allows you to click through the darkened screen when the lights are off.", 
+        "description": "Allows you to click through the darkened screen when the lights are off."
+    }, 
+    "desambilight4color": {
+        "message": "圍繞影片的四個被選擇的顏色：", 
+        "description": "4 choosen colors around the video:"
+    }, 
+    "lockentername": {
+        "message": "Please enter your password", 
+        "description": "Please enter your password"
+    }, 
+    "desnoflash": {
+        "message": "Don't use this feature.", 
+        "description": "Don't use this feature."
+    }, 
+    "desdynamicblocks": {
+        "message": "Blocks", 
+        "description": "Blocks"
+    }, 
+    "titeleye": {
+        "message": "眼部防護", 
+        "description": "Eye Protection"
+    }, 
+    "titelcinemaontop": {
+        "message": "Movie theater mode: it show the 'lights off' layer only on the top of the window.", 
+        "description": "Movie theater mode: it show the 'lights off' layer only on the top of the window."
+    }, 
+    "desmousespotlightc": {
+        "message": "If the light is off, you can select an area to focus a item.", 
+        "description": "If the light is off, you can select an area to focus a item."
+    }, 
+    "titelrememberpage": {
+        "message": "Remember page", 
+        "description": "Remember page"
+    }, 
+    "desmousespotlighta": {
+        "message": "如果燈不亮，把鼠標放進聚光燈裡。", 
+        "description": "If the light is off, show a spotlight around the mouse cursor."
+    }, 
+    "desmousespotlighto": {
+        "message": "Normal use (disables the mouse settings below)", 
+        "description": "Normal use (disables the mouse settings below)"
+    }, 
+    "desplaylist": {
+        "message": "顯示 YouTube 播放清單", 
+        "description": "Show the YouTube playlist on the YouTube website."
+    }, 
+    "desambilightfixcolor": {
+        "message": "實色", 
+        "description": "A solid color:"
+    }, 
+    "desuntil": {
+        "message": "until", 
+        "description": "until"
+    }, 
+    "desconfirmpassword": {
+        "message": "確認密碼", 
+        "description": "Confirm password"
+    }, 
+    "desautoplayonly": {
+        "message": "Dim only the following video site(s):", 
+        "description": "Dim only the following video site(s):"
+    }, 
+    "helpeyeprotection": {
+        "message": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature.", 
+        "description": "Enabling 'Eye protection' will automatically disable the 'Auto play' feature."
+    }, 
+    "skipremember": {
+        "message": "Skip this, and open now the option page", 
+        "description": "Skip this, and open now the option page"
+    }, 
+    "optiontimesaved": {
+        "message": "Time is saved successfully!", 
+        "description": "Time is saved successfully!"
+    }, 
+    "titelvideoheadline": {
+        "message": "視頻標題", 
+        "description": "Video Title"
+    }, 
+    "translateme": {
+        "message": "協助翻譯", 
+        "description": "Help Translate"
+    }, 
+    "despassword": {
+        "message": "Require a password to be entered before turning the lights back on.", 
+        "description": "Require a password to be entered before turning the lights back on."
+    }, 
+    "helpautoplay": {
+        "message": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option.", 
+        "description": "The 'Eye protection' is enabled. To use the below feature, disable the 'Eye protection' option."
+    }, 
+    "name": {
+        "message": "關燈看影片", 
+        "description": "Turn Off the Lights"
+    }, 
+    "changelog": {
+        "message": "更新日誌", 
+        "description": "changelog link"
+    }, 
+    "optionpagetitle": {
+        "message": "關燈看影片 - 選項", 
+        "description": "Option page title"
+    }, 
+    "optionpasswordsaved": {
+        "message": "Password is saved successfully!", 
+        "description": "Password is saved successfully!"
+    }, 
+    "desdynamicspace": {
+        "message": "Space Universe", 
+        "description": "Space Universe"
+    }, 
+    "deseastereggs": {
+        "message": "A bonus in this extension.", 
+        "description": "A bonus in this extension."
+    }, 
+    "settings": {
+        "message": "設置", 
+        "description": "Settings"
+    }, 
+    "desspotlightradius": {
+        "message": "is the diameter of the search lamp.", 
+        "description": "is the diameter of the search lamp."
+    }, 
+    "titelsync": {
+        "message": "Sync", 
+        "description": "Sync"
+    }, 
+    "right": {
+        "message": "右", 
+        "description": "right"
+    }, 
+    "titeldynamic": {
+        "message": "Dynamic Background", 
+        "description": "Dynamic Background"
+    }, 
+    "deslikebutton": {
+        "message": "顯示YouTube上該影片的 喜歡/不喜歡 按鈕", 
+        "description": "Show the like & dislike buttons of YouTube for this video."
+    }, 
+    "titelmouse": {
+        "message": "Mouse", 
+        "description": "Mouse"
+    }, 
+    "titellessmore": {
+        "message": "Show less", 
+        "description": "Show less"
+    }, 
+    "desshortcutlight": {
+        "message": "Enable the keyboard shortcuts below.", 
+        "description": "Enable the keyboard shortcuts below."
+    }, 
+    "titelinfobar": {
+        "message": "資訊欄", 
+        "description": "Infobar"
+    }, 
+    "descontextmenus": {
+        "message": "顯示上下文功能表，集中一個專案。", 
+        "description": "Show the context menu to focus an item."
+    }, 
+    "titelcontextmenus": {
+        "message": "上下文功能表", 
+        "description": "Context Menu"
+    }, 
+    "titelplaylist": {
+        "message": "播放清單", 
+        "description": "Playlist"
+    }, 
+    "desatmosphereonly": {
+        "message": "Use the atmosphere lighting feature only the following video site:", 
+        "description": "Use the atmosphere lighting feature only the following video site:"
+    }, 
+    "recflash": {
+        "message": "Recommended", 
+        "description": "Recommended"
+    }, 
+    "desenterpassword": {
+        "message": "Enter your password in the box below:", 
+        "description": "Enter your password in the box below:"
+    }, 
+    "titelblurradius": {
+        "message": "模糊半徑", 
+        "description": "The blur radius"
+    }, 
+    "version": {
+        "message": "版本", 
+        "description": "Version number text"
+    }, 
+    "shortcutdark": {
+        "message": "to darken the screen (increase opacity).", 
+        "description": "to darken the screen (increase opacity)."
+    }, 
+    "dessharebutton": {
+        "message": "顯示影片的分享按鈕", 
+        "description": "Show the share buttons of YouTube for this video."
+    }, 
+    "shortcutbright": {
+        "message": "to brighten the screen (decrease opacity).", 
+        "description": "to brighten the screen (decrease opacity)."
+    }, 
+    "titelalllightsoff": {
+        "message": "All open tabs", 
+        "description": "All open tabs"
+    }, 
+    "desreadera": {
+        "message": "關燈後永遠顯示暗度調節", 
+        "description": "Always show the dimness level bar when the lights go out."
+    }, 
+    "rememberrate": {
+        "message": "Rate", 
+        "description": "Rate"
+    }, 
+    "desautoplay": {
+        "message": "當你按下  播放按鈕時自動調暗背景", 
+        "description": "Automatically dim the background when you click the play button and versus."
+    }, 
+    "titelscreen": {
+        "message": "螢幕", 
+        "description": "Screen"
+    }, 
+    "desflash": {
+        "message": "顯示所有 Flash 物件", 
+        "description": "Show all Flash objects."
+    }, 
+    "titelhead": {
+        "message": "頻道", 
+        "description": "Channel"
+    }, 
+    "pageatitle": {
+        "message": "關燈看影片", 
+        "description": "Turn Off the Lights"
+    }, 
+    "desaddvideobutton": {
+        "message": "Show the add button from this YouTube video.", 
+        "description": "Show the add button from this YouTube video."
+    }, 
+    "shortcuteyeprotection": {
+        "message": "to enable/disable the eye protection feature.", 
+        "description": "to enable/disable the eye protection feature."
+    }, 
+    "titelfadein": {
+        "message": "淡入", 
+        "description": "Fade In"
+    }, 
+    "desreadern": {
+        "message": "不顯示暗度調節", 
+        "description": "Never show the dimness level bar."
+    }, 
+    "titelmaxqualityyoutube": {
+        "message": "Automatically set to this resolution:", 
+        "description": "Automatically set to this resolution:"
+    }, 
+    "desambilightrangespreadradius": {
+        "message": "正值會增加陰影的大小，而負值會減小尺寸。", 
+        "description": "Positive values increase the size of the shadow, negative values decrease the size."
+    }, 
+    "titelon": {
+        "message": "開", 
+        "description": "On"
+    }, 
+    "videotitle": {
+        "message": "這視頻的焦點", 
+        "description": "Focus this video"
+    }, 
+    "warningtextambilight": {
+        "message": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead.", 
+        "description": "If it's unable to receive video data because of a site's security rule, then it will show the chosen solid color instead."
+    }, 
+    "desdynamiccloud": {
+        "message": "Moving Clouds", 
+        "description": "Moving Clouds"
+    }, 
+    "desconfirmtimesaver": {
+        "message": "Confirm Screen Saver Time", 
+        "description": "Confirm Screen Saver Time"
+    }, 
+    "deslikebar": {
+        "message": "Show the like/dislike bar under YouTube videos.", 
+        "description": "Show the like/dislike bar under YouTube videos."
+    }, 
+    "titelautoplay": {
+        "message": "自動播放", 
+        "description": "Autoplay"
+    }, 
+    "top": {
+        "message": "上", 
+        "description": "top"
+    }, 
+    "titelspreadradius": {
+        "message": "散佈量的半徑", 
+        "description": "The spread radius"
+    }, 
+    "installadblocker": {
+        "message": "Use with an Adblocker extension.", 
+        "description": "Use with an Adblocker extension."
+    }, 
+    "titelsharebutton": {
+        "message": "分享按鈕", 
+        "description": "Share Buttons"
+    }, 
+    "titelcolor": {
+        "message": "顏色", 
+        "description": "Color"
+    }, 
+    "titeldownloadbutton": {
+        "message": "Download this Upgrade!", 
+        "description": "Download this Upgrade!"
+    }, 
+    "pagetitle": {
+        "message": "暗此頁", 
+        "description": "Darken this page"
+    }, 
+    "titelambilight": {
+        "message": "Atmosphere Lighting", 
+        "description": "Atmosphere Lighting"
+    }, 
+    "titelshowmore": {
+        "message": "Show more", 
+        "description": "Show more"
+    }, 
+    "desviewcount": {
+        "message": "顯示該視頻的瀏覽次數", 
+        "description": "Show the number of view for this video."
+    }, 
+    "titelautowidthyoutube": {
+        "message": "Automatically set the YouTube player to the larger size.", 
+        "description": "Automatically set the YouTube player to the larger size."
+    }, 
+    "desconfirmtime": {
+        "message": "Confirm time", 
+        "description": "Confirm time"
+    }, 
+    "titelupgrade": {
+        "message": "Upgrade", 
+        "description": "Upgrade"
+    }, 
+    "lockwrongpassword": {
+        "message": "Wrong password, please try again.", 
+        "description": "Wrong password, please try again."
+    }, 
+    "titelsyncbrowser": {
+        "message": "Sync the extension settings with your other browser.", 
+        "description": "Sync the extension settings with your other browser."
+    }, 
+    "deletebutton": {
+        "message": "刪除", 
+        "description": "Delete"
+    }, 
+    "eyedivon": {
+        "message": "ON", 
+        "description": "ON"
+    }, 
+    "eyedivoff": {
+        "message": "OFF", 
+        "description": "OFF"
+    }, 
+    "deshead": {
+        "message": "顯示 YouTube 頻道欄或名稱", 
+        "description": "Show the YouTube Channel bar or the name."
+    }, 
+    "shortcutsavingopacity": {
+        "message": "to save this opacity value", 
+        "description": "to save this opacity value"
+    }, 
+    "desinfobar": {
+        "message": "顯示影片的描述信息", 
+        "description": "Show the description information about the video."
+    }, 
+    "titellamp": {
+        "message": "Bulb", 
+        "description": "Bulb"
+    }, 
+    "desambilightvarcolor": {
+        "message": "把顏色從影片內拿出來。", 
+        "description": "Take the color from the video."
+    }, 
+    "showremember": {
+        "message": "doesn't show this remember page again when I open the option page.", 
+        "description": "doesn't show this remember page again when I open the option page."
+    }, 
+    "donatepromotext": {
+        "message": "如果您可以進行任何數額的捐贈，我將非常感激 ！", 
+        "description": "If you can make a donation of any amount, I'd appreciate it immensely!"
+    }, 
+    "titelblur": {
+        "message": "Blur the rest", 
+        "description": "Blur the rest"
+    }, 
+    "desdynamicraindrops": {
+        "message": "Raindrops", 
+        "description": "Raindrops"
+    }, 
+    "desalllightsoff": {
+        "message": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled.", 
+        "description": "Clicking the lamp button will toggle the lights on/off on all open tabs when this option is enabled."
+    }, 
+    "optionecosaversaved": {
+        "message": "Seconds is saved successfully!", 
+        "description": "Seconds is saved successfully!"
+    }, 
+    "titelreader": {
+        "message": "暗度調節", 
+        "description": "Dimness Level Bar"
+    }, 
+    "deseyen": {
+        "message": "正常使用（燈光熄滅時，您按一下燈圖標）。", 
+        "description": "Normal use (lights go out when you click on the lamp icon)."
+    }, 
+    "enjoyshare": {
+        "message": "Enjoy this extension and share it with others who you think will appreciate it.", 
+        "description": "Enjoy this extension and share it with others who you think will appreciate it."
+    }, 
+    "shortcuttotl": {
+        "message": "to toggle the lights on/off.", 
+        "description": "to toggle the lights on/off."
+    }, 
+    "deseyea": {
+        "message": "暗淡的背景時自動打開一個頁面。", 
+        "description": "Automatically dim the background when opening a page."
+    }, 
+    "basicsettings": {
+        "message": "基礎知識", 
+        "description": "Basics"
+    }, 
+    "hoveroptionapply": {
+        "message": "apply", 
+        "description": "apply"
+    }, 
+    "reportbug": {
+        "message": "報告問題", 
+        "description": "Report an Issue"
+    }, 
+    "destime": {
+        "message": "Lights off between the following times:", 
+        "description": "Lights off between the following times:"
+    }, 
+    "guide": {
+        "message": "TOtL Welcome Guide", 
+        "description": "TOtL Welcome Guide"
+    }, 
+    "deseyealist": {
+        "message": "Automatically dim the background when opening the following page(s):", 
+        "description": "Automatically dim the background when opening the following page(s):"
+    }, 
+    "titellikebutton": {
+        "message": "喜歡/不喜歡 按鈕", 
+        "description": "Like & Dislike Buttons"
+    }, 
+    "titelpageaction": {
+        "message": "隱藏燈圖示", 
+        "description": "hide pageaction icon"
+    }, 
+    "friendlyremember": {
+        "message": "Friendly Remember...", 
+        "description": "Friendly Remember..."
+    }, 
+    "desfadein": {
+        "message": "顯示淡入特效", 
+        "description": "Show the fade in effect."
+    }, 
+    "warning": {
+        "message": "Warning!", 
+        "description": "Warning!"
+    }, 
+    "deseyetimesaver": {
+        "message": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark.", 
+        "description": "When a page is inactive (no mouse or keyboard input) for the time specified below, the page will automatically go dark."
+    }, 
+    "titelsuggestions": {
+        "message": "建議", 
+        "description": "Suggestions"
+    }, 
+    "advancedoptions": {
+        "message": "高級的選項", 
+        "description": "Advanced Options"
+    }, 
+    "dessuggestions": {
+        "message": "顯示 YouTube 網站的建議。", 
+        "description": "Show the suggestions of the YouTube website."
+    }, 
+    "titelflash": {
+        "message": "Flash 偵測", 
+        "description": "Flash Detection"
+    }, 
+    "desambilight": {
+        "message": "Show you the atmosphere lighting effect of the current playing video.", 
+        "description": "Show you the atmosphere lighting effect of the current playing video."
+    }, 
+    "productshare": {
+        "message": "Share", 
+        "description": "Share"
+    }, 
+    "addbutton": {
+        "message": "添加", 
+        "description": "Add"
+    }, 
+    "reportlist": {
+        "message": "(請參閱清單)", 
+        "description": "See the full issue list"
+    }, 
+    "desdynamicfishtank": {
+        "message": "Fish Tank", 
+        "description": "Fish Tank"
+    }, 
+    "longdonatetext": {
+        "message": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!", 
+        "description": "I'd truly appreciate if you can donate me to keep this browser extension alive for the other new users. Whether it's $$1 or $$100, your support is immensely appreciated!"
+    }, 
+    "deshardflash": {
+        "message": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads.", 
+        "description": "Show all Flash objects, skipping the URL filter. This will fix problems with some video players being hidden, but will also display ads."
+    }, 
+    "desfadeout": {
+        "message": "顯示淡出特效", 
+        "description": "Show the fade out effect."
+    }, 
+    "optionwrongimg": {
+        "message": "Invalid image file!", 
+        "description": "Invalid image file!"
+    }, 
+    "desvideoheadline": {
+        "message": "顯示和視頻的標題的顏色反轉。", 
+        "description": "Show and invert the color of the video title."
+    }, 
+    "desrememberpage": {
+        "message": "If this option is enabled, it will show you not the remember page.", 
+        "description": "If this option is enabled, it will show you not the remember page."
+    }, 
+    "description": {
+        "message": "觀賞影片時讓整個畫面變暗，彷彿置身電影院", 
+        "description": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema."
+    }, 
+    "titelviewcount": {
+        "message": "瀏覽次數", 
+        "description": "Number of Views"
+    }, 
+    "titelopacity": {
+        "message": "透明度", 
+        "description": "Opacity"
+    }, 
+    "titelqualityyoutube": {
+        "message": "Automatically set the quality of YouTube videos.", 
+        "description": "Automatically set the quality of YouTube videos."
+    }, 
+    "shortcutopacity": {
+        "message": "to restore to the set darkness (opacity) setting.", 
+        "description": "to restore to the set darkness (opacity) setting."
+    }, 
+    "desambilightrangeblurradius": {
+        "message": "如果設置的值比較低, 陰影將會是很尖銳。數字越高，陰影將會是越模糊。", 
+        "description": "If set a lower value the shadow will be sharp, the higher the number, the more blurred it will be."
+    }, 
+    "titeladdvideobutton": {
+        "message": "Add Button", 
+        "description": "Add Button"
+    }, 
+    "titelpassword": {
+        "message": "Password Protection", 
+        "description": "Password Protection"
+    }, 
+    "titeldownloadupgrade": {
+        "message": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site.", 
+        "description": "The upgrade adds support for focusing selected images, and will display a gallery of images on the site."
+    }, 
+    "titelfadeout": {
+        "message": "淡出", 
+        "description": "Fade Out"
+    }, 
+    "eastereggsquestion": {
+        "message": "Do you like a real movie theater?", 
+        "description": "Do you like a real movie theater?"
+    }, 
+    "bottom": {
+        "message": "下", 
+        "description": "bottom"
+    }, 
+    "dessaver": {
+        "message": "Screen Saver:", 
+        "description": "Screen Saver:"
+    }, 
+    "hoveroptiondyn5": {
+        "message": "with flying", 
+        "description": "with flying"
+    }, 
+    "pagestillloading": {
+        "message": "The page is still loading?", 
+        "description": "The page is still loading?"
+    }, 
+    "titeloff": {
+        "message": "閉", 
+        "description": "Off"
+    }, 
+    "titeleastereggs": {
+        "message": "復活節彩蛋", 
+        "description": "Easter Eggs"
+    }, 
+    "textfoot": {
+        "message": "本軟體的授權方式遵守-GNU GPL。 查看授權副本，請至", 
+        "description": "This software is licensed under the CC-GNU GPL. To view a copy of this license, visit"
+    }, 
+    "left": {
+        "message": "左", 
+        "description": "left"
+    }
+}

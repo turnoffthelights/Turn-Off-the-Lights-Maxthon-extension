@@ -1,0 +1,59 @@
+﻿[
+{
+	"type": "extension",
+	"frameworkVersion": "1.0.6",
+	"guid": "{d330b49d-e2f4-460c-9dc3-362a260d7457}",
+	"version": "3.1",
+	"author": {
+        "name": "Stefan vd",
+        "email": "stefanvandamme@stefanvd.net",
+        "site": "http://www.turnoffthelights.com"
+	},
+	"title": {
+		"en": "Turn Off the Lights",
+		"es": "Turn Off the Lights",
+		"de": "Turn Off the Lights",
+		"fr": "Turn Off the Lights",
+		"nl": "Turn Off the Lights",
+		"ru": "Turn Off the Lights",
+        "zh-cn": "关灯看视频"
+	},
+	"description": {
+		"en": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
+		"es": "La página se oscurecerá completamente , así podrás ver los videos como si estuvieras en el cine.",
+		"de": "Die ganze Seite wird abgedunkelt, sodass sie Videos wie im Kino anschauen können.",
+		"fr": "La page de votre navigateur s’assombrit et vous regardez votre vidéo comme dans un cinéma.",
+		"nl": "De pagina wordt donkerder, zo kunt u naar de video kijken alsof u in de bioscoop bent.",
+		"ru": "Затемняет содержимое веб-страницы для комфортного просмотра видео (как в кинотеатре).",
+        "zh-cn": "观看视频时调暗页面，仿佛置身电影院"
+	},
+    "permissions": [
+        "httpRequest": ["http://*/*", "https://*/*", "*."]
+    ],
+	"config": "options.html",
+	"service" : {
+		"main": "background.html",
+        "debug": false
+    },
+	"actions": [{
+		"type": "script",
+		"entryPoints": ["sidebar","toolbar"],
+		"include": ["*"],
+		"js": ["js/light.js"]
+	},
+	{
+		"type": "script",
+		"entryPoints": ["doc_start"],
+		"include": ["*"],
+		"js": ["js/injected.js"]
+	},
+	{
+		"type": "script",
+		"entryPoints": ["doc_end"],
+		"include": ["*"],
+		"css": ["css/light.css"],
+		"js": ["js/content.js"],
+		"includeFrames": true			
+	}]
+}
+]
