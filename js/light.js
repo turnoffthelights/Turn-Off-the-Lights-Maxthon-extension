@@ -250,6 +250,34 @@ var eowtitle = $('eow-title');
 if(eowtitle){$('eow-title').style.color = 'white';$('eow-title').style.zIndex = 1001;$('eow-title').style.position = 'relative';}
 }
 
+// Shows YouTube Suggestions
+if(suggestions == 'true'){
+var watch7sidebar = $('watch7-sidebar');  // new youtube watch7
+if(watch7sidebar){$('watch7-sidebar').style.zIndex = '1000';}
+
+var watchsidebar = $('watch-sidebar');
+if(watchsidebar){$('watch-sidebar').style.zIndex = '1000';}
+}
+
+// Shows YouTube playlist
+if(playlist == 'true'){
+var watchappbarplaylist = $('watch-appbar-playlist');
+if(watchappbarplaylist){$('watch-appbar-playlist').style.zIndex = 1001;}
+}
+
+// Shows video title
+if(videoheadline == 'true'){
+var watchheadlinetitle = $('watch-headline-title');  // new youtube watch7
+if(watchheadlinetitle){$('watch-headline-title').style.zIndex = 1001;$('watch-headline-title').style.position = 'relative';}
+
+span = document.getElementsByTagName('span');  // new youtube watch7
+for(var i = 0; i < span.length; i++ ) 
+{if(span[i].className == (' yt-uix-expander-head') ) {span[i].style.color = 'white';}}
+
+var eowtitle = $('eow-title');
+if(eowtitle){$('eow-title').style.color = 'white';$('eow-title').style.zIndex = 1001;$('eow-title').style.position = 'relative';}
+}
+
 // Shows YouTube Channel name
 if(head == 'true'){
 var watch7userheader = $('watch7-user-header');
@@ -322,11 +350,6 @@ for(var i = 0; i < span.length; i++ )
 // MAC & PC & LINUX
 // HTML5
 
-// HTML5 trial
-video = document.getElementsByTagName('video'); 
-for(var i = 0; i < video.length; i++ )
-{if(video[i].className == ('video-stream html5-main-video')) {video[i].style.cssText = 'visibility:visible !important; position:absolute !important; top: 0 !important; z-index:1000 !important';}}
-
 // show YouTube HTML5 annotation
 div = document.getElementsByTagName('div'); 
 for(var i = 0; i < div.length; i++ )
@@ -363,13 +386,13 @@ for (var conf in data) {
 var divs = document.getElementsByTagName('div');
 for (var div in divs) {
         var c = divs[div].className;
-        if (c == 'video-controls' || c == 'html5-video-controls' || c == 'html5-video-controls ytp-block-autohide' || c == 'html5-video-controls disabled-control-seek' || c =='html5-video-content') {
+        if (c == 'video-controls' || c == 'html5-video-controls' || c == 'html5-video-controls ytp-block-autohide' || c == 'html5-video-controls disabled-control-seek') {
                 divs[div].style.zIndex = 1001;
                 divs[div].style.visibility = 'visible';
         }
 }
 
-// YouTube show sub titel
+// YouTube show sub title
 var subtitel = document.getElementsByTagName('div');
 for(var i = 0; i < subtitel.length; i++ )
 {if(subtitel[i].className == ('ytp-player-content ytp-subtitles-player-content')) {subtitel[i].style.zIndex = 1001;subtitel[i].style.pointerEvents = 'none';}}

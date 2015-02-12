@@ -481,7 +481,7 @@ $("select_language").addEventListener('click', function () {updateCountry();},fa
 $("select_language").addEventListener('change', function() {updateCountry();save_options();});
 $("select_dialect").addEventListener('change', function() {save_options();});
 
-		if(mxstorage.getItem("interval"))$('interval').value = mxstorage.getItem("interval");
+		if(mxstorage.getItem("interval")){$('interval').value = mxstorage.getItem("interval");$('slider').value = mxstorage.getItem("interval");}
 		else $('interval').value = 80;
 		if(mxstorage.getItem("lightcolor")){$('lightcolor').value = mxstorage.getItem("lightcolor");}
 		else {$('lightcolor').value = '#000000';}
@@ -522,9 +522,9 @@ $("select_dialect").addEventListener('change', function() {save_options();});
 		if(mxstorage.getItem("addvideobutton") == 'true')$('addvideobutton').checked = true;
 		if(mxstorage.getItem("likebar") == 'true')$('likebar').checked = true;
 		if(mxstorage.getItem("ambilight") == 'true')$('ambilight').checked = true;
-		if(mxstorage.getItem("ambilightrangeblurradius"))$('ambilightrangeblurradius').value = mxstorage.getItem("ambilightrangeblurradius");
+		if(mxstorage.getItem("ambilightrangeblurradius")){$('ambilightrangeblurradius').value = mxstorage.getItem("ambilightrangeblurradius");$('arangeblur').value = mxstorage.getItem("ambilightrangeblurradius");}
 		else $('ambilightrangeblurradius').value = 70;
-		if(mxstorage.getItem("ambilightrangespreadradius"))$('ambilightrangespreadradius').value = mxstorage.getItem("ambilightrangespreadradius");
+		if(mxstorage.getItem("ambilightrangespreadradius")){$('ambilightrangespreadradius').value = mxstorage.getItem("ambilightrangespreadradius");$('arangespread').value = mxstorage.getItem("ambilightrangespreadradius");}
 		else $('ambilightrangespreadradius').value = 20;
 		if(mxstorage.getItem("mousespotlightt") == 'true')$('mousespotlightt').checked = true;
 		if(mxstorage.getItem("ambilightfixcolor") == 'true')$('ambilightfixcolor').checked = true;
@@ -1209,6 +1209,7 @@ function test() {
 if(ambilight.checked == true){
 drawImage();
 }
+
 // show alert warning
 if(ambilightvarcolor.checked == true)
 {$('showwarningambilight').style.display = '';}
@@ -1339,7 +1340,6 @@ else{$('lampandnightmode').disabled = true;}
 if(autostoponly.checked == true){$('autostopchecklistwhite').disabled = false;$('autostopchecklistblack').disabled = false;}
 else{$('autostopchecklistwhite').disabled = true;$('autostopchecklistblack').disabled = true;}
 }
-
 
 function dynamictest(){
 var newdynmaster = $("stefanvddynamicbackground");
@@ -2024,11 +2024,11 @@ $("tabadvan").addEventListener('click', function() {ONworkaroundbugfromsafari();
 $("tabnight").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "";$('welcomeshare').src = "";$("managed-prefs-banner").style.display = "";});
 $("tabmotion").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "";$('welcomeshare').src = "";$("managed-prefs-banner").style.display = "";});
 $("tabspeech").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "";$('welcomeshare').src = "";$("managed-prefs-banner").style.display = "";});
-$("tabguide").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "http://www.turnoffthelights.com/extension/chromeguide.html";$('welcomeshare').src = "";$("managed-prefs-banner").style.display = "none";});
+$("tabguide").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "http://www.turnoffthelights.com/extension/maxthonguide.html";$('welcomeshare').src = "";$("managed-prefs-banner").style.display = "none";});
 $("tabshare").addEventListener('click', function() {ONworkaroundbugfromsafari();$('welcomeguide').src = "";$('welcomeshare').src = "http://www.turnoffthelights.com/extension/fan.html";$("managed-prefs-banner").style.display = "none";});
 
 $("buttonreportissue").addEventListener('click', function() {window.open("http://www.turnoffthelights.com/support");});
-$("buttonchangelog").addEventListener('click', function() {window.open("http://www.turnoffthelights.com/extension/chromechangelog.html");});
+$("buttonchangelog").addEventListener('click', function() {window.open("http://www.turnoffthelights.com/extension/maxthonchangelog.html");});
 $("buttonreportlist").addEventListener('click', function() {window.open("http://www.turnoffthelights.com/extension/issueslist.html");});
 $("buttontranslateme").addEventListener('click', function() {window.open("http://www.turnoffthelights.com/extension/translate.html");});
 
@@ -2041,7 +2041,7 @@ $("ppdownload").addEventListener('click', function() {window.open("https://chrom
 $("zodownload").addEventListener('click', function() {window.open("https://chrome.google.com/webstore/detail/zoom/lajondecmobodlejlcjllhojikagldgd");});
 $("aadownload").addEventListener('click', function() {window.open("https://chrome.google.com/webstore/detail/pkaglmndhfgdaiaccjglghcbnfinfffa");});
 
-$("themedownload").addEventListener('click', function() {window.open("https://chrome.google.com/webstore/detail/fpddgembdeaikopmbfiokjolihbamcca");});
+$("themedownload").addEventListener('click', function() {window.open("http://skin.maxthon.com/detail/index.php?view_id=2015");});
 
 // Save password
 $("confirmtimesaver").addEventListener('click', function() {save_options();var optionpastemp = chrome.i18n.getMessage('optionecosaversaved');window.alert(optionpastemp);});
