@@ -29,7 +29,7 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-16237836-27']);
-_gaq.push(['_trackPageview', '/background.html?version=3.1.0.2']);
+_gaq.push(['_trackPageview', '/background.html?version=3.1.0.3']);
 
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
