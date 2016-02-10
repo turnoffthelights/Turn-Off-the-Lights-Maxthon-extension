@@ -177,7 +177,7 @@ readera = mxstorage.getItem("readera");
 
 	    // YouTube playlist (set back to default)
 		var watchappbarplaylist = $('watch-appbar-playlist');
-		if (watchappbarplaylist) { $('watch-appbar-playlist').style.zIndex = 'auto'; }
+		if (watchappbarplaylist) { $('watch-appbar-playlist').style.zIndex = '3'; }
 
 	    // YouTube video title (set back to default)
 		var eowtitle = $('eow-title');

@@ -66,7 +66,7 @@ function init(){
 var browser = rt.create('mx.browser');
 if ((mxstorage.getItem("firstRun")!="false") && (mxstorage.getItem("firstRun")!=false)){
   browser.tabs.newTab({url:"https://www.turnoffthelights.com/extension/maxthonguide.html",position:"afterCurrrent"});
-  browser.tabs.newTab({ url: "mxaddon-pkg://{d330b49d-e2f4-460c-9dc3-362a260d7457}/options.html?welcome", position: "afterCurrrent" });
+  browser.tabs.newTab({url:"https://www.turnoffthelights.com/extension/maxthonwelcome.html",position:"afterCurrrent"});
   mxstorage.setItem('firstRun',false);
   mxstorage.setItem('version',"3.1");
 }
