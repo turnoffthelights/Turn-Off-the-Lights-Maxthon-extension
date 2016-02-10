@@ -2,8 +2,8 @@
 /*
 
 Turn Off the Lights
-The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2015 Stefan vd
+The entire page will be fading to dark, so you can watch the videos as if you were in the cinema.
+Copyright (C) 2016 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -65,13 +65,13 @@ mxstorage =
 function init(){
 var browser = rt.create('mx.browser');
 if ((mxstorage.getItem("firstRun")!="false") && (mxstorage.getItem("firstRun")!=false)){
-  browser.tabs.newTab({url:"http://www.turnoffthelights.com/extension/maxthonguide.html",position:"afterCurrrent"});
-  browser.tabs.newTab({url:"http://www.turnoffthelights.com/extension/maxthonwelcome.html",position:"afterCurrrent"});
+  browser.tabs.newTab({url:"https://www.turnoffthelights.com/extension/maxthonguide.html",position:"afterCurrrent"});
+  browser.tabs.newTab({ url: "mxaddon-pkg://{d330b49d-e2f4-460c-9dc3-362a260d7457}/options.html?welcome", position: "afterCurrrent" });
   mxstorage.setItem('firstRun',false);
   mxstorage.setItem('version',"3.1");
 }
 else if (mxstorage.getItem("version")=="2.1"){
-  browser.tabs.newTab({url:"http://www.turnoffthelights.com/extension/maxthonupgrade.html",position:"afterCurrrent"});
+  browser.tabs.newTab({url:"https://www.turnoffthelights.com/extension/maxthonupgrade.html",position:"afterCurrrent"});
   mxstorage.setItem('version',"3.1");
 }
 }

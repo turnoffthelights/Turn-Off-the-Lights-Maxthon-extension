@@ -3,7 +3,7 @@
 	"type": "extension",
 	"frameworkVersion": "1.0.6",
 	"guid": "{d330b49d-e2f4-460c-9dc3-362a260d7457}",
-	"version": "3.1.0.7",
+	"version": "3.2.0.5",
 	"author": {
         "name": "Stefan vd",
         "email": "stefanvandamme@stefanvd.net",
@@ -15,8 +15,9 @@
 		"de": "Turn Off the Lights",
 		"fr": "Turn Off the Lights",
 		"nl": "Turn Off the Lights",
-		"ru": "Turn Off the Lights",
-        "zh-cn": "关灯看视频"
+    "ru": "Turn Off the Lights",
+    "tr": "Turn Off the Lights",
+    "zh-cn": "关灯看视频"
 	},
 	"description": {
 		"en": "The entire page will be fading to dark, so you can watch the video as if you were in the cinema.",
@@ -24,8 +25,9 @@
 		"de": "Die ganze Seite wird abgedunkelt, sodass sie Videos wie im Kino anschauen können.",
 		"fr": "La page de votre navigateur s’assombrit et vous regardez votre vidéo comme dans un cinéma.",
 		"nl": "De pagina wordt donkerder, zo kunt u naar de video kijken alsof u in de bioscoop bent.",
-		"ru": "Затемняет содержимое веб-страницы для комфортного просмотра видео (как в кинотеатре).",
-        "zh-cn": "观看视频时调暗页面，仿佛置身电影院"
+    "ru": "Затемняет содержимое веб-страницы для комфортного просмотра видео (как в кинотеатре).",
+    "tr": "Videoları tıpkı sinemadaymış gibi izleyebilmeniz için sayfanın tamamı karartılacaktır.",
+    "zh-cn": "观看视频时调暗页面，仿佛置身电影院"
 	},
     "permissions": [
         "httpRequest": ["http://*/*", "https://*/*", "*."]
@@ -37,7 +39,7 @@
     },
 	"actions": [{
 		"type": "script",
-		"entryPoints": ["sidebar","toolbar"],
+    "entryPoints": [ "sidebar", "toolbar","contextMenu"],
 		"include": ["*"],
 		"js": ["js/light.js"]
 	},
@@ -53,7 +55,8 @@
 		"include": ["*"],
 		"css": ["css/light.css"],
 		"js": ["js/content.js"],
-		"includeFrames": true			
+    "includeFrames": true,
+    "contexts": ["page","video"]	
 	}]
 }
 ]

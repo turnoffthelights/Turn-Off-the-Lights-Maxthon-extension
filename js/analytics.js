@@ -2,8 +2,8 @@
 /*
 
 Turn Off the Lights
-The entire page will be fading to dark, so you can watch the video as if you were in the cinema.
-Copyright (C) 2015 Stefan vd
+The entire page will be fading to dark, so you can watch the videos as if you were in the cinema.
+Copyright (C) 2016 Stefan vd
 www.stefanvd.net
 www.turnoffthelights.com
 
@@ -27,12 +27,26 @@ To view a copy of this license, visit http://creativecommons.org/licenses/GPL/2.
 */
 //================================================
 
+var exversion = "";
+try { // Maxthon workaround
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "manifest.json", false);
+    xhr.onreadystatechange = function () {
+        if (this.readyState == 4) {
+            var theManifest = JSON.parse(this.responseText);
+            exversion = theManifest.version;
+        }
+    };
+    xhr.send();
+} catch (ex) { } // silently fail
+
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-16237836-27']);
-_gaq.push(['_trackPageview', '/background.html?version=3.1.0.7']);
+_gaq.push(['_setSampleRate', '1']);
+_gaq.push(['_trackPageview', '/background.html?version=' + exversion + '']);
 
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = 'https://ssl.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+(function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
