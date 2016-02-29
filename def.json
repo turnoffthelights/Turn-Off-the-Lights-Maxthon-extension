@@ -3,7 +3,7 @@
 	"type": "extension",
 	"frameworkVersion": "1.0.6",
 	"guid": "{d330b49d-e2f4-460c-9dc3-362a260d7457}",
-	"version": "3.2.0.7",
+	"version": "3.2.0.8",
 	"author": {
         "name": "Stefan vd",
         "email": "stefanvandamme@stefanvd.net",
